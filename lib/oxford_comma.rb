@@ -39,5 +39,6 @@ def test(array)
     new_array4[index] = element
     index += 1
   end
-  new_array3.insert(-2, "and")
+  new_array4.insert(-2, "and")
+  new_array4
 end
