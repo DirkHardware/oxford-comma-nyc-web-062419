@@ -19,14 +19,25 @@ def oxford_comma(array)
     new_array3.join("")
   elsif array.length > 4
     index = 0
+    new_array4 = array
     mod_length = array.length - 2
     mod_length.times do
-  end
+      element = new_array4[index]
+      element = "#{element},"
+      new_array4[index] = element
+      index += 1
+    end
 end
 
 def test(array)
-  mod_length = array.length - 2
-  mod_length.times do |value|
-    puts "#{value}"
+  index = 0
+  new_array4 = array
+  mod_length = array.length - 1
+  mod_length.times do
+    element = new_array4[index]
+    element = "#{element},"
+    new_array4[index] = element
+    index += 1
   end
+  new_array3.insert(-2, "and")
 end
