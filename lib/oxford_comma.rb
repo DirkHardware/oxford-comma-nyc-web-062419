@@ -13,7 +13,7 @@ def oxford_comma(array)
       new_array3 << new_element
     end
     new_array3 = new_array3.insert(2, "and ")
-    new_array3 = new_array3.remove_at(3)
+    new_array3 = new_array3.delete_at(3)
     new_array3 = new_array3.push("starfruit")
     new_array3 = new_array3.join
   end
