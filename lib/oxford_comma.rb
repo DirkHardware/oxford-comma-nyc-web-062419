@@ -8,9 +8,12 @@ def oxford_comma(array)
     new_array2 = array.insert(1, "and")
     new_array2 = array.join(" ")
   elsif array.length == 3
-    array.each do |element|
+    index = 0
+    while index < 2
+      array.each do |element|
       new_element = "#{element}, "
       new_array3 << new_element
+      end
     end
     new_array3 = new_array3.insert(2, "and ")
     new_array3 = new_array3.join
