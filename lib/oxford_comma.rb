@@ -2,8 +2,8 @@ def oxford_comma(array)
   new_array1 = []
   new_array2 = []
   new_array3 = []
-  # if array.length == 1
-  #   puts "1"
+  if array.length == 1
+    new_array = array.to_s
   # elsif array.length == 2
   #   2array = array.insert(2, "and")
   #   2array = array.join(" ")
