@@ -15,6 +15,6 @@ def oxford_comma(array)
     new_array3 = new_array3.insert(2, "and ")
     new_array3 = new_array3.delete_at(3)
     new_array3 = new_array3.insert(3, "starfruit")
-    new_array3.join
+    new_array3.join()
   end
 end
