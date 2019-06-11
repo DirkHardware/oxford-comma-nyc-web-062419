@@ -27,19 +27,20 @@ def oxford_comma(array)
       new_array4[index] = element
       index += 1
     end
+    new_array4.insert(-2, "and")
+    new_array4
   end
 end
 
-def test(array)
-  index = 0
-  new_array4 = array
-  mod_length = array.length - 1
-  mod_length.times do
-    element = new_array4[index]
-    element = "#{element},"
-    new_array4[index] = element
-    index += 1
-  end
-  new_array4.insert(-2, "and")
-  new_array4
-end
+# def test(array)
+#   index = 0
+#   new_array4 = array
+#   mod_length = array.length - 1
+#   mod_length.times do
+#     element = new_array4[index]
+#     element = "#{element},"
+#     new_array4[index] = element
+#     index += 1
+#   end
+#
+# end
