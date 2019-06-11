@@ -27,6 +27,7 @@ def oxford_comma(array)
       new_array4[index] = element
       index += 1
     end
+  end
 end
 
 def test(array)
