@@ -20,7 +20,7 @@ def oxford_comma(array)
   elsif array.length > 4
     index = 0
     new_array4 = array
-    mod_length = array.length - 2
+    mod_length = array.length - 1
     mod_length.times do
       element = new_array4[index]
       element = "#{element},"
