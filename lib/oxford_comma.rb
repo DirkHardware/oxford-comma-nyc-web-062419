@@ -20,11 +20,13 @@ def oxford_comma(array)
   elsif array.length > 4
     index = 0
     mod_length = array.length - 2
+    mod_length.times do
   end
 end
 
 def test(array)
-  array.3.times do |value|
+  mod_length = array.length - 2
+  mod_length.times do |value|
     puts "#{value}"
   end
 end
