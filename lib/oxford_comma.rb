@@ -28,7 +28,7 @@ def oxford_comma(array)
       index += 1
     end
     new_array4.insert(-2, "and")
-    new_array4.join("")
+    new_array4.join(" ")
   end
 end
 
