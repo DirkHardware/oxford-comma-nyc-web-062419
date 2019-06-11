@@ -18,6 +18,8 @@ def oxford_comma(array)
     new_array3.insert(3, "starfruit")
     new_array3.join("")
   elsif array.length > 4
+    index = 0
+    mod_length = array.length - 2
   end
 end
 
